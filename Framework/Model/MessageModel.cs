@@ -27,25 +27,12 @@ namespace Framework.Model
     public enum MessageObjType
     {
         /// <summary>
-        /// 抽奖
-        /// </summary>
-        LuckDraw,
-        /// <summary>
-        /// 问卷调查
-        /// </summary>
-        Questionnaire,
-        /// <summary>
         /// 授权
         /// </summary>
         Auth,
         /// <summary>
-        /// 微信企业付款
+        /// 付款
         /// </summary>
-        CompanyPayment,
-        /// <summary>
-        /// 微信红包
-        /// </summary>
-        RedPackets
-
+        Payment,
     }
 }
